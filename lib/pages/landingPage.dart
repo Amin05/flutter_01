@@ -3,8 +3,8 @@ import 'package:flutter_01/pages/mainPage.dart';
 import 'package:flutter_01/theme.dart';
 import 'package:flutter/services.dart';
 
-class SplashScreen extends StatelessWidget {
-  const SplashScreen({Key key}) : super(key: key);
+class LandingPage extends StatelessWidget {
+  const LandingPage({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

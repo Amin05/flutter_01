@@ -164,7 +164,7 @@ class _MainPageState extends State<MainPage> {
                             SizedBox(width: w(4.18)),
                             new Flexible(
                               child: new TextFormField(
-                                obscureText: true,
+                                // obscureText: true,
                                 decoration: InputDecoration(
                                     border: InputBorder.none,
                                     hintText: 'Search a flight...',

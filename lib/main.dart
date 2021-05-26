@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_01/pages/splashScreen.dart';
+import 'package:flutter_01/pages/landingPage.dart';
 import 'package:flutter_01/pages/mainPage.dart';
 import 'package:flutter_01/pages/bookingPage.dart';
 
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(fontFamily: 'DM Sans'),
-        home: SplashScreen());
+        home: LandingPage());
         // home: MainPage());
     // home: BookingPage());
     // home: Text('home page'));
